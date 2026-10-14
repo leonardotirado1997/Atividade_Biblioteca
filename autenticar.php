@@ -4,6 +4,7 @@
 
 // Aqui inicia a sessão do usúario.
 // A Sessão permite guardar os dados do usuario logado entre as paginas!
+session_start();
 
 // Inclui a coenxão com banco de dados.
 include("conexao.php");
